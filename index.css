@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Hind&family=Kanit:ital,wght@0,300;0,400;1,300;1,400&family=Lato:ital,wght@0,400;1,900&family=PT+Serif:ital@0;1&family=Poppins&family=Ysabeau:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+
+
+      .bg1{
+        background-image: url(./image/bg3.jpg);
+        background-repeat: cover;
+        background-attachment: fixed;
+        padding-bottom: 300px;
+    }
+  
+    .lineUp {
+        animation: 2s anim-lineUp ease-out infinite;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+      .head{
+        text-align: center;
+        color: white;
+        padding-top: 100px;
+        
+        font-size: 70px;
+      }
+      .head span{
+        font-size: 21px;
+      }
+      
+      .places div{
+    
+        
+          width:30%;
+          height: 400px;
+          
+      
+          float: left;
+          margin: -70px;
+          margin-left: 84px;
+      }
+       .bgg1 img{
+        width: 340px;
+        height: 370px;
+       
+    
+    }
+    .bgg2 img{
+      width: 340px;
+      height: 370px;
+  
+  }
+  .bgg3 img{
+    width: 340px;
+    height: 370px;
+
+}
+.places h3{
+  margin-left: 40px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif, Arial, sans-serif;
+  color:darkslategray;
+}
+.bgg1{
+ 
+  transition: transform 10s; /* Animation */
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+}
+.bgg1:hover {
+  transform: scale(1.2);
+}
+.bgg2{
+ 
+  transition: transform 10s; /* Animation */
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+}
+.bgg2:hover {
+  transform: scale(1.2);
+}.bgg3{
+ 
+  transition: transform 10s; /* Animation */
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+}
+.bgg3:hover {
+  transform: scale(1.2);
+}
+
+
+
+#about{
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  padding-top: 400px;
+  }     
+   .abouthead{
+    
+    font-size: 50px;
+    color: green;
+    text-align: center;
+  
+  }  
+span{
+  font-size: 30px;
+}
+.plans div{
+    
+        
+  width:20%;
+  height: 600px;
+  margin-left: 130px;
+
+  float: left;
+margin: 90x;
+ 
+}
+
+.pln1 img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 1px solid;
+margin-left: 30px;
+margin-top: 80px;
+
+}
+.pln2 img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-left: 30px;
+  margin-top: 80px;
+
+}
+.pln3 img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-left: 30px;
+  margin-top: 80px;
+
+}
+.plans h3{
+  font-size: 27px;
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.plans p{
+  text-align: center;
+  line-height: 2;
+  margin-top: 20px;
+}
+.row{
+  width: 100%;
+  height: 600px;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.col{
+  width: 300px;
+  height: 370px;
+  
+
+}
+
+
+.col h3{
+  text-align: center;
+  color: cadetblue;
+}
+.col p{
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+button{
+  position: relative;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 100px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    animation: 0.8s linear infinite rotate;
+  }
+  &.sending{
+    pointer-events: none;
+    cursor: not-allowed;
+    
+    &:before {
+      transition-delay: 0.5s;
+      transition-duration: 1s;
+      opacity: 1;
+    }
+  }
+}
+.tourhead{
+  text-align: center;
+  font-size: 40px;
+
+}
+.row1{
+  width: 100%;
+  height: 600px;
+  margin-left: -1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -130px;
+  
+ 
+}
+.col1{
+  width: 480px;
+  height: 370px;
+ 
+}
+.col1 h3{
+  text-align: center;
+  color: cadetblue;
+}
+.col1 p{
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 60px;
+}
+.plans img {
+  --m:
+    radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+      0 100%/46% 92% no-repeat,
+    radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+      100% 0/46% 92% no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale(.5);
+  transition: .3s linear;
+  cursor: pointer;
+}
+.plans img:hover {
+  -webkit-mask-position: 7.5% 50%,92.5% 50%;
+          mask-position: 7.5% 50%,92.5% 50%;
+  filter: grayscale(0);
+}
+.tourpic {
+  
+  
+  transition: transform 10s; /* Animation */
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.tourpic:hover {
+  transform: scale(1.2);
+}
+.tourpic1{
+ 
+  transition: transform 10s; /* Animation */
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+}
+.tourpic1:hover {
+  transform: scale(1.2);
+}
+#testimony{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-image: url('./image/signup.jpg');
+  background-attachment: fixed;
+  background-repeat: cover;
+  color: white;
+  margin-top: -80px;
+}
+#testimony h1{
+  padding-top: 110px;
+  font-size: 50px;
+  font-weight: bold;
+}
+#testimony input{
+  width: 300px;
+  height: 50px;
+  background-color: lightgray;
+
+}
+#testimony button{
+  width: 120px;
+  background-color: blue;
+  color: white;
+  height: 50px;
+}
+#details{
+ 
+  
+ background-color:black;
+ color:white;
+  /* background-image: url('https://cdn.w600.comps.canstockphoto.com/wooden-table-with-a-view-of-blurred-pictures_csp35357482.jpg'); */
+ padding-right: 900px;
+  font-size: 1px;
+ 
+  margin-bottom: 10px;
+  padding-top: 190px;
+  margin-top: -30px;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 10%;
+  /* margin-left: 300px; */
+  border-radius: 5px solid black;
+  padding-bottom: 50px;
+}
+.detailsitems{
+  margin-top: -150px;
+}
+h1{
+  font-size: 10px;
+}
+
+.icondiv{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -400px;
+  margin-left: 60px;
+
+}
+.icon{
+  width: 20px;
+  height: 30px;
+  border: 0px solid;
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+ 
+  margin-top: -50px;
+  margin-left: 10px;
+}
+.icon i{
+  font-size: 16px;
+  color: black;
+}
+.icon:hover{
+ 
+
+  /* chANGE BACKGROUND COLOR */
+  
+}
+.icon i:hover{
+  color: rgb(44, 178, 240);
+}
+span{
+  font-size: 17px;
+}
+.next{
+  margin-left: 500px;
+  margin-top: -110px;
+  width: 300px;
+  
+}
+.next a{
+  font-size: 15px;
+  text-decoration: none;
+}
+.next h6{
+  font-size: 3px;
+  color: grey;
+}
+.next2{
+  margin-left: 900px;
+  margin-top: -200px;
+  width: 300px;
+}
+.next2 ul{
+  font-size: 20px;
+}
+.next2 ul li{
+  margin-right: 10px;
+}
+footer p{
+  padding-right: 800px;
+}
+.gallery{
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.footer{
+  background-color: black;
+}
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 60%;
+}
+.details h1{
+  font-size: 20px;
+  color: grey;
+}
+.uparrow{
+  margin: 1rem, 2rem;
+  float: right;
+  width: 70px;
+  height: 70px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: white;
+  background-color: black;
+ 
+}
+@media(max-width:600px){
+  .home2{
+      font-size: 3rem;
+      line-height: 6;
+      
+
+  }
+  .places{
+    font-size: 3rem;
+    line-height: 6;
+
+    
+
+}
+.bgg1{
+  width: 100%;
+}
+
+}
